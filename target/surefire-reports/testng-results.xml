@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="9573" started-at="2021-03-03T20:19:23Z" finished-at="2021-03-03T20:19:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@737996a0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="9573" started-at="2021-03-03T20:19:23Z" finished-at="2021-03-03T20:19:33Z">
+      <class name="runners.TestRunner">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:runners.TestRunner@737996a0]" name="setUp" is-config="true" duration-ms="6867" started-at="2021-03-03T17:19:16Z" finished-at="2021-03-03T17:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.TestRunner@737996a0]" name="setUpClass" is-config="true" duration-ms="1553" started-at="2021-03-03T17:19:23Z" finished-at="2021-03-03T17:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@737996a0]" name="runScenario" duration-ms="1967" started-at="2021-03-03T17:19:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T17:19:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Unsuccessful Admin Login using valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Successful Orange HRM Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@737996a0]" name="runScenario" duration-ms="4005" started-at="2021-03-03T17:19:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-03T17:19:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Admin Login using invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Successful Orange HRM Login]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.TestRunner@737996a0]" name="tearDownClass" is-config="true" duration-ms="2028" started-at="2021-03-03T17:19:31Z" finished-at="2021-03-03T17:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runners.TestRunner@737996a0]" name="tearDown" is-config="true" duration-ms="3741" started-at="2021-03-03T17:19:33Z" finished-at="2021-03-03T17:19:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
