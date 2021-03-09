@@ -13,10 +13,7 @@ import org.jetbrains.annotations.NotNull;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.Reporter;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 import testBase.TestBase;
 
 /**
@@ -34,11 +31,11 @@ import testBase.TestBase;
 public class TestRunner extends AbstractTestNGCucumberTests {
 
     public TestBase testBase;
-
+    @Parameters("browser")
     @BeforeSuite(alwaysRun = true)
-    public void setUp() throws Exception {
+    public void setUp(String browserName) throws Exception {
         testBase = new TestBase();
-        testBase.createBrowser().get("https://opensource-demo.orangehrmlive.com/index.php/");
+        testBase.createBrowser(browserName).get("https://opensource-demo.orangehrmlive.com/index.php/");
 
     }
 

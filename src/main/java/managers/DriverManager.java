@@ -24,8 +24,10 @@ public class DriverManager {
     private static final String MICROSOFT_EDGE_DRIVER_PROPERTY = "webdriver.edge.driver";
     private static final String OPERA_DRIVER_PROPERTY = "webdriver.opera.driver";
 
-    public DriverManager() {
-        driverType = FileReaderManager.getInstance().getConfigReader().getBrowser();
+    public DriverManager(String browsername) {
+        //driverType = FileReaderManager.getInstance().getConfigReader().getBrowser();
+        DriverType browserEnum = DriverType.valueOf(browsername.toUpperCase());
+        driverType = browserEnum;
         environmentType = FileReaderManager.getInstance().getConfigReader().getEnvironment();
     }
 

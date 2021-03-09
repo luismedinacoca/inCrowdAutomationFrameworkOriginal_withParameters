@@ -23,7 +23,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="918e256f-5307-49d2-9939-ca96b5be135e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/1-UnsuccessLogin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/3-Logout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/managers/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/managers/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testBase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testBase/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/1-FailedLogin.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/InCrowdAutomationFramework-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/managers/DriverManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/DriverManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/managers/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/managers/DriverManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Surefire suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-runners.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-runners.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Surefire suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/1-FailedLogin.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/3-SuccessLogout.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testBase/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testBase/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/PdfReport/ExtentPdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/PdfReport/ExtentPdf.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/SparkReport/Spark.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SparkReport/Spark.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +85,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\usuario\AppData\Local\JetBrains\Toolbox\apps\IDEA-C\ch-0\202.7319.50\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -61,14 +94,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="runners" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\InCrowdAutomationFramework_01\inCrowdAutomationFrameworkOriginalv02\src\test\resources\features" />
+      <recent name="C:\Workspace\InCrowdAutomationFramework\InCrowdAutomationFramework_Original\src\test\resources\features" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test/java" />
@@ -79,12 +120,6 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="common" />
       <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="runners" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Workspace\InCrowdAutomationFramework\InCrowdAutomationFramework_Original\src\test\resources\features" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.C:/Workspace/InCrowdAutomationFramework/InCrowdAutomationFramework_Original/src/test/resources/test_suite/testng.xml">
@@ -141,6 +176,53 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="inCrowdAutomationFrameworkOriginal_withParameters" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="inCrowdAutomationFrameworkOriginal_withParameters" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -293,187 +375,7 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="443" y="195" key="#Notifications" timestamp="1614004204423">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="443" y="195" key="#Notifications/0.23.1680.983@0.23.1680.983" timestamp="1614004204423" />
-    <state x="440" y="111" key="#Project_Structure" timestamp="1613467561275">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="440" y="111" key="#Project_Structure/0.23.1680.983@0.23.1680.983" timestamp="1613467561275" />
-    <state x="170" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613478571786">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="170" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.983@0.23.1680.983" timestamp="1613478571786" />
-    <state x="170" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.989@0.23.1680.989" timestamp="1612878672764" />
-    <state x="761" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613394779511">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="761" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.983@0.23.1680.983" timestamp="1613394779511" />
-    <state x="761" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.988@0.23.1680.988" timestamp="1612867819021" />
-    <state x="761" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.989@0.23.1680.989" timestamp="1613322711398" />
-    <state x="599" y="172" key="#com.intellij.ide.util.MemberChooser" timestamp="1613634293005">
-      <screen x="0" y="23" width="1680" height="984" />
-    </state>
-    <state x="599" y="172" key="#com.intellij.ide.util.MemberChooser/0.23.1680.983@0.23.1680.983" timestamp="1613587872504" />
-    <state x="599" y="172" key="#com.intellij.ide.util.MemberChooser/0.23.1680.984@0.23.1680.984" timestamp="1613634293005" />
-    <state x="599" y="173" key="#com.intellij.ide.util.MemberChooser/0.23.1680.988@0.23.1680.988" timestamp="1613331746045" />
-    <state x="599" y="173" key="#com.intellij.ide.util.MemberChooser/0.23.1680.989@0.23.1680.989" timestamp="1613325559298" />
-    <state x="443" y="284" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1613415212687">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="443" y="284" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.983@0.23.1680.983" timestamp="1613415212687" />
-    <state x="439" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1611780623188">
-      <screen x="0" y="23" width="1680" height="986" />
-    </state>
-    <state x="439" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.986@0.23.1680.986" timestamp="1611780623188" />
-    <state x="604" y="430" width="471" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1614089811578">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="604" y="430" width="471" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.983@0.23.1680.983" timestamp="1614089811578" />
-    <state x="604" y="430" width="471" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.984@0.23.1680.984" timestamp="1613415765073" />
-    <state x="604" y="404" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1611780625178">
-      <screen x="0" y="23" width="1680" height="986" />
-    </state>
-    <state x="604" y="404" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1680.986@0.23.1680.986" timestamp="1611780625178" />
-    <state x="570" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1613977489432">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="570" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.983@0.23.1680.983" timestamp="1613977489432" />
-    <state x="570" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.984@0.23.1680.984" timestamp="1613650625461" />
-    <state x="578" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613641373607">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="578" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.983@0.23.1680.983" timestamp="1613641373607" />
-    <state x="578" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.986@0.23.1680.986" timestamp="1611780639172" />
-    <state x="578" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.987@0.23.1680.987" timestamp="1611782451004" />
-    <state width="472" height="466" key="DebuggerActiveHint" timestamp="1614091013406">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state width="472" height="466" key="DebuggerActiveHint/0.23.1680.983@0.23.1680.983" timestamp="1614091013406" />
-    <state width="1865" height="466" key="GridCell.Tab.0.bottom" timestamp="1614782000410">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1865" height="466" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1614782000410" />
-    <state width="1865" height="735" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1614777224239" />
-    <state width="1461" height="326" key="GridCell.Tab.0.bottom/0.23.1680.983@0.23.1680.983" timestamp="1614093559933" />
-    <state width="1300" height="274" key="GridCell.Tab.0.bottom/0.23.1680.984@0.23.1680.984" timestamp="1613678181143" />
-    <state width="1300" height="274" key="GridCell.Tab.0.bottom/0.23.1680.985@0.23.1680.985" timestamp="1613653190577" />
-    <state width="1300" height="382" key="GridCell.Tab.0.bottom/0.23.1680.986@0.23.1680.986" timestamp="1613653106596" />
-    <state width="1299" height="190" key="GridCell.Tab.0.bottom/0.23.1680.987@0.23.1680.987" timestamp="1613119127006" />
-    <state width="1257" height="274" key="GridCell.Tab.0.bottom/0.23.1680.988@0.23.1680.988" timestamp="1613333349652" />
-    <state width="1257" height="274" key="GridCell.Tab.0.bottom/0.23.1680.989@0.23.1680.989" timestamp="1613373453622" />
-    <state width="1303" height="312" key="GridCell.Tab.0.bottom/0.23.1680.990@0.23.1680.990" timestamp="1612879060588" />
-    <state width="1865" height="466" key="GridCell.Tab.0.center" timestamp="1614782000409">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1865" height="466" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1614782000409" />
-    <state width="1865" height="735" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1614777224239" />
-    <state width="1461" height="326" key="GridCell.Tab.0.center/0.23.1680.983@0.23.1680.983" timestamp="1614093559932" />
-    <state width="1300" height="274" key="GridCell.Tab.0.center/0.23.1680.984@0.23.1680.984" timestamp="1613678181142" />
-    <state width="1300" height="274" key="GridCell.Tab.0.center/0.23.1680.985@0.23.1680.985" timestamp="1613653190576" />
-    <state width="1300" height="382" key="GridCell.Tab.0.center/0.23.1680.986@0.23.1680.986" timestamp="1613653106596" />
-    <state width="1299" height="190" key="GridCell.Tab.0.center/0.23.1680.987@0.23.1680.987" timestamp="1613119127006" />
-    <state width="1257" height="274" key="GridCell.Tab.0.center/0.23.1680.988@0.23.1680.988" timestamp="1613333349652" />
-    <state width="1257" height="274" key="GridCell.Tab.0.center/0.23.1680.989@0.23.1680.989" timestamp="1613373453621" />
-    <state width="1303" height="312" key="GridCell.Tab.0.center/0.23.1680.990@0.23.1680.990" timestamp="1612879060587" />
-    <state width="1865" height="466" key="GridCell.Tab.0.left" timestamp="1614782000409">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1865" height="466" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1614782000409" />
-    <state width="1865" height="735" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1614777224239" />
-    <state width="1461" height="326" key="GridCell.Tab.0.left/0.23.1680.983@0.23.1680.983" timestamp="1614093559932" />
-    <state width="1300" height="274" key="GridCell.Tab.0.left/0.23.1680.984@0.23.1680.984" timestamp="1613678181142" />
-    <state width="1300" height="274" key="GridCell.Tab.0.left/0.23.1680.985@0.23.1680.985" timestamp="1613653190576" />
-    <state width="1300" height="382" key="GridCell.Tab.0.left/0.23.1680.986@0.23.1680.986" timestamp="1613653106595" />
-    <state width="1299" height="190" key="GridCell.Tab.0.left/0.23.1680.987@0.23.1680.987" timestamp="1613119127005" />
-    <state width="1257" height="274" key="GridCell.Tab.0.left/0.23.1680.988@0.23.1680.988" timestamp="1613333349651" />
-    <state width="1257" height="274" key="GridCell.Tab.0.left/0.23.1680.989@0.23.1680.989" timestamp="1613373453621" />
-    <state width="1303" height="312" key="GridCell.Tab.0.left/0.23.1680.990@0.23.1680.990" timestamp="1612879060586" />
-    <state width="1865" height="466" key="GridCell.Tab.0.right" timestamp="1614782000410">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1865" height="466" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1614782000410" />
-    <state width="1865" height="735" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1614777224239" />
-    <state width="1461" height="326" key="GridCell.Tab.0.right/0.23.1680.983@0.23.1680.983" timestamp="1614093559932" />
-    <state width="1300" height="274" key="GridCell.Tab.0.right/0.23.1680.984@0.23.1680.984" timestamp="1613678181143" />
-    <state width="1300" height="274" key="GridCell.Tab.0.right/0.23.1680.985@0.23.1680.985" timestamp="1613653190577" />
-    <state width="1300" height="382" key="GridCell.Tab.0.right/0.23.1680.986@0.23.1680.986" timestamp="1613653106596" />
-    <state width="1299" height="190" key="GridCell.Tab.0.right/0.23.1680.987@0.23.1680.987" timestamp="1613119127006" />
-    <state width="1257" height="274" key="GridCell.Tab.0.right/0.23.1680.988@0.23.1680.988" timestamp="1613333349652" />
-    <state width="1257" height="274" key="GridCell.Tab.0.right/0.23.1680.989@0.23.1680.989" timestamp="1613373453622" />
-    <state width="1303" height="312" key="GridCell.Tab.0.right/0.23.1680.990@0.23.1680.990" timestamp="1612879060587" />
-    <state width="1461" height="326" key="GridCell.Tab.1.bottom" timestamp="1614093559932">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state width="1461" height="326" key="GridCell.Tab.1.bottom/0.23.1680.983@0.23.1680.983" timestamp="1614093559932" />
-    <state width="1300" height="382" key="GridCell.Tab.1.bottom/0.23.1680.984@0.23.1680.984" timestamp="1613643719345" />
-    <state width="1300" height="382" key="GridCell.Tab.1.bottom/0.23.1680.985@0.23.1680.985" timestamp="1613652483312" />
-    <state width="1300" height="382" key="GridCell.Tab.1.bottom/0.23.1680.986@0.23.1680.986" timestamp="1613653106595" />
-    <state width="1500" height="302" key="GridCell.Tab.1.bottom/0.23.1680.987@0.23.1680.987" timestamp="1613046302053" />
-    <state width="1257" height="274" key="GridCell.Tab.1.bottom/0.23.1680.988@0.23.1680.988" timestamp="1613333347713" />
-    <state width="1257" height="274" key="GridCell.Tab.1.bottom/0.23.1680.989@0.23.1680.989" timestamp="1613373453621" />
-    <state width="1461" height="326" key="GridCell.Tab.1.center" timestamp="1614093559932">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state width="1461" height="326" key="GridCell.Tab.1.center/0.23.1680.983@0.23.1680.983" timestamp="1614093559932" />
-    <state width="1300" height="382" key="GridCell.Tab.1.center/0.23.1680.984@0.23.1680.984" timestamp="1613643719344" />
-    <state width="1300" height="382" key="GridCell.Tab.1.center/0.23.1680.985@0.23.1680.985" timestamp="1613652483312" />
-    <state width="1300" height="382" key="GridCell.Tab.1.center/0.23.1680.986@0.23.1680.986" timestamp="1613653106594" />
-    <state width="1500" height="302" key="GridCell.Tab.1.center/0.23.1680.987@0.23.1680.987" timestamp="1613046302052" />
-    <state width="1257" height="274" key="GridCell.Tab.1.center/0.23.1680.988@0.23.1680.988" timestamp="1613333347713" />
-    <state width="1257" height="274" key="GridCell.Tab.1.center/0.23.1680.989@0.23.1680.989" timestamp="1613373453620" />
-    <state width="1461" height="326" key="GridCell.Tab.1.left" timestamp="1614093559932">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state width="1461" height="326" key="GridCell.Tab.1.left/0.23.1680.983@0.23.1680.983" timestamp="1614093559932" />
-    <state width="1300" height="382" key="GridCell.Tab.1.left/0.23.1680.984@0.23.1680.984" timestamp="1613643719344" />
-    <state width="1300" height="382" key="GridCell.Tab.1.left/0.23.1680.985@0.23.1680.985" timestamp="1613652483312" />
-    <state width="1300" height="382" key="GridCell.Tab.1.left/0.23.1680.986@0.23.1680.986" timestamp="1613653106593" />
-    <state width="1500" height="302" key="GridCell.Tab.1.left/0.23.1680.987@0.23.1680.987" timestamp="1613046302052" />
-    <state width="1257" height="274" key="GridCell.Tab.1.left/0.23.1680.988@0.23.1680.988" timestamp="1613333347712" />
-    <state width="1257" height="274" key="GridCell.Tab.1.left/0.23.1680.989@0.23.1680.989" timestamp="1613373453619" />
-    <state width="1461" height="326" key="GridCell.Tab.1.right" timestamp="1614093559932">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state width="1461" height="326" key="GridCell.Tab.1.right/0.23.1680.983@0.23.1680.983" timestamp="1614093559932" />
-    <state width="1300" height="382" key="GridCell.Tab.1.right/0.23.1680.984@0.23.1680.984" timestamp="1613643719345" />
-    <state width="1300" height="382" key="GridCell.Tab.1.right/0.23.1680.985@0.23.1680.985" timestamp="1613652483312" />
-    <state width="1300" height="382" key="GridCell.Tab.1.right/0.23.1680.986@0.23.1680.986" timestamp="1613653106594" />
-    <state width="1500" height="302" key="GridCell.Tab.1.right/0.23.1680.987@0.23.1680.987" timestamp="1613046302053" />
-    <state width="1257" height="274" key="GridCell.Tab.1.right/0.23.1680.988@0.23.1680.988" timestamp="1613333347713" />
-    <state width="1257" height="274" key="GridCell.Tab.1.right/0.23.1680.989@0.23.1680.989" timestamp="1613373453621" />
-    <state x="663" y="170" key="Maven.ArtifactSearchDialog" timestamp="1613985496709">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="663" y="170" key="Maven.ArtifactSearchDialog/0.23.1680.983@0.23.1680.983" timestamp="1613985496709" />
-    <state x="663" y="170" key="Maven.ArtifactSearchDialog/0.23.1680.984@0.23.1680.984" timestamp="1613654417121" />
-    <state x="378" y="177" key="Maven.ArtifactSearchDialog/0.23.1680.986@0.23.1680.986" timestamp="1611828773273" />
-    <state x="378" y="177" key="Maven.ArtifactSearchDialog/0.23.1680.987@0.23.1680.987" timestamp="1611782468340" />
-    <state x="378" y="178" key="Maven.ArtifactSearchDialog/0.23.1680.989@0.23.1680.989" timestamp="1612873701800" />
-    <state x="378" y="178" key="Maven.ArtifactSearchDialog/0.23.1680.990@0.23.1680.990" timestamp="1611835342967" />
-    <state x="378" y="178" key="Maven.ArtifactSearchDialog/0.23.1680.991@0.23.1680.991" timestamp="1611258457638" />
-    <state x="328" y="97" key="SettingsEditor" timestamp="1614076863944">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="328" y="97" key="SettingsEditor/0.23.1680.983@0.23.1680.983" timestamp="1614076863944" />
-    <state x="328" y="97" key="SettingsEditor/0.23.1680.986@0.23.1680.986" timestamp="1611782283528" />
-    <state x="328" y="97" key="SettingsEditor/0.23.1680.987@0.23.1680.987" timestamp="1613118764577" />
-    <state x="526" y="297" width="689" height="472" key="find.popup" timestamp="1613412553225">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="526" y="297" width="689" height="472" key="find.popup/0.23.1680.983@0.23.1680.983" timestamp="1613412553225" />
-    <state x="526" y="298" width="689" height="472" key="find.popup/0.23.1680.988@0.23.1680.988" timestamp="1613199881711" />
-    <state x="505" y="237" width="670" height="671" key="search.everywhere.popup" timestamp="1614083393455">
-      <screen x="0" y="23" width="1680" height="983" />
-    </state>
-    <state x="505" y="237" width="670" height="671" key="search.everywhere.popup/0.23.1680.983@0.23.1680.983" timestamp="1614083393455" />
-    <state x="505" y="237" width="670" height="672" key="search.everywhere.popup/0.23.1680.984@0.23.1680.984" timestamp="1613421708153" />
-    <state x="505" y="238" width="670" height="674" key="search.everywhere.popup/0.23.1680.988@0.23.1680.988" timestamp="1612863192476" />
-    <state x="505" y="238" width="670" height="675" key="search.everywhere.popup/0.23.1680.989@0.23.1680.989" timestamp="1613327696505" />
-    <state x="505" y="239" width="670" height="676" key="search.everywhere.popup/0.23.1680.991@0.23.1680.991" timestamp="1611258820445" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -500,7 +402,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java</url>
-          <line>46</line>
+          <line>43</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -515,12 +417,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/testBase/TestBase.java</url>
-          <line>17</line>
+          <line>18</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/runners/TestRunner.java</url>
-          <line>39</line>
+          <line>36</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

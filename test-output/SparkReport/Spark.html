@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Grasshopper Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">mar 3, 2021 05:19:24 PM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 9, 2021 02:44:53 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,19 +66,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>mar 3, 2021 05:19:24 PM</h3>
+<h3>Mar 9, 2021 02:44:53 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>mar 3, 2021 05:19:31 PM</h3>
+<h3>Mar 9, 2021 02:45:00 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>1</h3>
+<h3>3</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -101,7 +101,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>1</b> features passed
+<b>3</b> features passed
 </small>
 </div>
 <div>
@@ -123,7 +123,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>2</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>3</b> scenarios passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -143,7 +143,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>6</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>9</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"Successful Orange HRM Login":5.671
+"Unsuccessful Orange HRM Login":1.614,"Successful Orange HRM Login":3.976,"Successful Orange HRM Logout":1.257
 };
 </script>
 <div class="row">
@@ -173,7 +173,7 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>@smoke</td>
-<td>2</td>
+<td>3</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -214,18 +214,18 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
+passParent: 3,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 2,
+passChild: 3,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 6,
+passGrandChild: 9,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
@@ -261,9 +261,9 @@ eventsCount: 5,
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Successful Orange HRM Login</p>
+            <p class="name">Unsuccessful Orange HRM Login</p>
             <p class="text-sm">
-              <span>17:19:25 PM</span> / <span>00:00:05:671</span>
+              <span>14:44:53 PM</span> / <span>00:00:01:614</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -271,10 +271,10 @@ eventsCount: 5,
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Successful Orange HRM Login</h5>
-<span class='badge badge-success'>03.03.2021 17:19:25</span>
-<span class='badge badge-danger'>03.03.2021 17:19:31</span>
-<span class='badge badge-default'>00:00:05:671</span>
+<h5 class="test-status text-pass">Unsuccessful Orange HRM Login</h5>
+<span class='badge badge-success'>03.09.2021 14:44:53</span>
+<span class='badge badge-danger'>03.09.2021 14:44:55</span>
+<span class='badge badge-default'>00:00:01:614</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -284,7 +284,7 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Unsuccessful Admin Login using valid credentials</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Unsuccessful Admin Login using invalid credentials</div>
       </div>
     </div>
         <div class="collapse">
@@ -307,10 +307,38 @@ eventsCount: 5,
           </div>
         </div>
   </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Successful Orange HRM Login</p>
+            <p class="text-sm">
+              <span>14:44:55 PM</span> / <span>00:00:03:976</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Successful Orange HRM Login</h5>
+<span class='badge badge-success'>03.09.2021 14:44:55</span>
+<span class='badge badge-danger'>03.09.2021 14:44:59</span>
+<span class='badge badge-default'>00:00:03:976</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>Successful Admin Login using invalid credentials</div>
+        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>Successful Admin Login using invalid credentials</div>
       </div>
     </div>
         <div class="collapse">
@@ -327,6 +355,60 @@ eventsCount: 5,
               </div>
               <div class="step pass-bg" title="stepdefinitions.LoginSteps.user_is_on_the_screen(java.lang.String)">
                 <span>Then user is on the "home" screen</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Successful Orange HRM Logout</p>
+            <p class="text-sm">
+              <span>14:44:59 PM</span> / <span>00:00:01:257</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Successful Orange HRM Logout</h5>
+<span class='badge badge-success'>03.09.2021 14:44:59</span>
+<span class='badge badge-danger'>03.09.2021 14:45:00</span>
+<span class='badge badge-default'>00:00:01:257</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="16"><span class="badge log pass-bg mr-2">Pass</span>Successful Admin Logout</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="stepdefinitions.LoginSteps.user_is_on_the_screen(java.lang.String)">
+                <span>Given user is on the "home" screen</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.LogoutSteps.user_clicks_on_logout_button()">
+                <span>And user clicks on Logout button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="stepdefinitions.LoginSteps.user_is_on_the_screen(java.lang.String)">
+                <span>Then user is on the "login" screen</span>
       <div>
       </div>
               </div>
@@ -356,15 +438,15 @@ eventsCount: 5,
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>2</span>
+<span class='badge log pass-bg'>3</span>
 </span>
 <p class="name">@smoke</p>
-<p class="duration text-sm">2 tests</p>
+<p class="duration text-sm">3 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>@smoke</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -377,21 +459,31 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>17:19:25 PM</td>
+<td>14:44:53 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Unsuccessful Admin Login using valid credentials</a>
+<a href="#" class="linked" test-id='1' id='2'>Unsuccessful Admin Login using invalid credentials</a>
 <div class="">
-<span class="badge badge-default">Successful Orange HRM Login.Unsuccessful Admin Login using valid credentials</span>
+<span class="badge badge-default">Unsuccessful Orange HRM Login.Unsuccessful Admin Login using invalid credentials</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>17:19:27 PM</td>
+<td>14:44:55 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='8'>Successful Admin Login using invalid credentials</a>
+<a href="#" class="linked" test-id='8' id='9'>Successful Admin Login using invalid credentials</a>
 <div class="">
 <span class="badge badge-default">Successful Orange HRM Login.Successful Admin Login using invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:44:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='16'>Successful Admin Logout</a>
+<div class="">
+<span class="badge badge-default">Successful Orange HRM Logout.Successful Admin Logout</span>
 </div>
 </td>
 </tr>

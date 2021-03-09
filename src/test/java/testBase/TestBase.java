@@ -13,8 +13,9 @@ public class TestBase {
     public static PageObjectManager pageObjectManager;
 
 
-    public WebDriver createBrowser() {
-        driverManager = new DriverManager();
+    public WebDriver createBrowser(String browserName) {
+
+        driverManager = new DriverManager(browserName);
         driver = driverManager.getDriver();
         return driver;
 

@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,12 +101,17 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="runners.TestRunner" hash-for-method="runScenario(&quot;Unsuccessful Admin Login using valid credentials&quot;, &quot;Optional[Successful Orange HRM Login]&quot;)">runScenario("Unsuccessful Admin Login using valid credentials", "Optional[Successful Orange HRM Login]")</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="runners.TestRunner" hash-for-method="runScenario(&quot;Unsuccessful Admin Login using invalid credentials&quot;, &quot;Optional[Unsuccessful Orange HRM Login]&quot;)">runScenario("Unsuccessful Admin Login using invalid credentials", "Optional[Unsuccessful Orange HRM Login]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="runners.TestRunner" hash-for-method="runScenario(&quot;Successful Admin Login using invalid credentials&quot;, &quot;Optional[Successful Orange HRM Login]&quot;)">runScenario("Successful Admin Login using invalid credentials", "Optional[Successful Orange HRM Login]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="runners.TestRunner" hash-for-method="runScenario(&quot;Successful Admin Logout&quot;, &quot;Optional[Successful Orange HRM Logout]&quot;)">runScenario("Successful Admin Logout", "Optional[Successful Orange HRM Logout]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -129,10 +134,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Unsuccessful Admin Login using valid credentials&quot;, &quot;Optional[Successful Orange HRM Login]&quot;)">
-                  </a> <!-- runScenario("Unsuccessful Admin Login using valid credentials", "Optional[Successful Orange HRM Login]") -->
+                  <a name="runScenario(&quot;Unsuccessful Admin Login using invalid credentials&quot;, &quot;Optional[Unsuccessful Orange HRM Login]&quot;)">
+                  </a> <!-- runScenario("Unsuccessful Admin Login using invalid credentials", "Optional[Unsuccessful Orange HRM Login]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Unsuccessful Admin Login using valid credentials", "Optional[Successful Orange HRM Login]")</span>
+                  <span class="parameters">("Unsuccessful Admin Login using invalid credentials", "Optional[Unsuccessful Orange HRM Login]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -143,6 +148,16 @@
                   </a> <!-- runScenario("Successful Admin Login using invalid credentials", "Optional[Successful Orange HRM Login]") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Successful Admin Login using invalid credentials", "Optional[Successful Orange HRM Login]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful Admin Logout&quot;, &quot;Optional[Successful Orange HRM Logout]&quot;)">
+                  </a> <!-- runScenario("Successful Admin Logout", "Optional[Successful Orange HRM Logout]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful Admin Logout", "Optional[Successful Orange HRM Logout]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -209,20 +224,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runners.TestRunner')
-data.setCell(0, 3, 4005);
+data.setCell(0, 3, 3983);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'runners.TestRunner')
-data.setCell(1, 3, 1967);
+data.setCell(1, 3, 1862);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'runners.TestRunner')
+data.setCell(2, 3, 1261);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -250,28 +269,32 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runners.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">setUp</span>
+                <span class="method-name">setUp(microsoft_edge)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setUpClass</span>
-                <span class="method-start">6877 ms</span>
+                <span class="method-start">6225 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Unsuccessful Admin Login using valid credentials", "Optional[Successful Orange HRM Login]")</span>
-                <span class="method-start">8438 ms</span>
+                <span class="method-name">runScenario("Unsuccessful Admin Login using invalid credentials", "Optional[Unsuccessful Orange HRM Login]")</span>
+                <span class="method-start">6980 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">runScenario("Successful Admin Login using invalid credentials", "Optional[Successful Orange HRM Login]")</span>
-                <span class="method-start">10406 ms</span>
+                <span class="method-start">8842 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful Admin Logout", "Optional[Successful Orange HRM Logout]")</span>
+                <span class="method-start">12826 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">14411 ms</span>
+                <span class="method-start">14088 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16778 ms</span>
+                <span class="method-start">15896 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

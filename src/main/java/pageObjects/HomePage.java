@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 /**
  * Created by Lama on 2021-02-18.
@@ -29,7 +30,8 @@ public class HomePage {
     }
 
     public void clickLogout() {
-        verifyWelcomeTextDisplayed();
+        welcomeText.click();
+        Assert.assertEquals(true, verifyWelcomeTextDisplayed());
         logout.click();
     }
 
