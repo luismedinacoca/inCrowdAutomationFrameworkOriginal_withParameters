@@ -2,30 +2,30 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="9660" started-at="2021-03-09T17:44:52Z" finished-at="2021-03-09T17:45:02Z">
+  <suite name="Surefire suite" duration-ms="10041" started-at="2021-03-11T18:33:34Z" finished-at="2021-03-11T18:33:44Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@50f8360d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="9660" started-at="2021-03-09T17:44:52Z" finished-at="2021-03-09T17:45:02Z">
+    <test name="Surefire test" duration-ms="10041" started-at="2021-03-11T18:33:34Z" finished-at="2021-03-11T18:33:44Z">
       <class name="runners.TestRunner">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:runners.TestRunner@50f8360d]" name="setUp" is-config="true" duration-ms="6219" started-at="2021-03-09T14:44:46Z" finished-at="2021-03-09T14:44:52Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:runners.TestRunner@50f8360d]" name="setUp" is-config="true" duration-ms="8822" started-at="2021-03-11T15:33:25Z" finished-at="2021-03-11T15:33:34Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[microsoft_edge]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.TestRunner@50f8360d]" name="setUpClass" is-config="true" duration-ms="748" started-at="2021-03-09T14:44:52Z" finished-at="2021-03-09T14:44:53Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.TestRunner@50f8360d]" name="setUpClass" is-config="true" duration-ms="911" started-at="2021-03-11T15:33:34Z" finished-at="2021-03-11T15:33:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@50f8360d]" name="runScenario" duration-ms="1862" started-at="2021-03-09T14:44:53Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-09T14:44:55Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@50f8360d]" name="runScenario" duration-ms="1893" started-at="2021-03-11T15:33:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-11T15:33:36Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@50f8360d]" name="runScenario" duration-ms="3983" started-at="2021-03-09T14:44:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-09T14:44:59Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@50f8360d]" name="runScenario" duration-ms="4083" started-at="2021-03-11T15:33:36Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-11T15:33:40Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@50f8360d]" name="runScenario" duration-ms="1261" started-at="2021-03-09T14:44:59Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-09T14:45:00Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@50f8360d]" name="runScenario" duration-ms="1087" started-at="2021-03-11T15:33:40Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-11T15:33:42Z">
           <params>
             <param index="0">
               <value>
@@ -73,11 +73,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.TestRunner@50f8360d]" name="tearDownClass" is-config="true" duration-ms="1790" started-at="2021-03-09T14:45:00Z" finished-at="2021-03-09T14:45:02Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.TestRunner@50f8360d]" name="tearDownClass" is-config="true" duration-ms="2053" started-at="2021-03-11T15:33:42Z" finished-at="2021-03-11T15:33:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:runners.TestRunner@50f8360d]" name="tearDown" is-config="true" duration-ms="3703" started-at="2021-03-09T14:45:02Z" finished-at="2021-03-09T14:45:06Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runners.TestRunner@50f8360d]" name="tearDown" is-config="true" duration-ms="3741" started-at="2021-03-11T15:33:44Z" finished-at="2021-03-11T15:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
